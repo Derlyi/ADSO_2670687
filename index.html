@@ -12,8 +12,11 @@
             <h5>Concepto de GIT</h5>
             <h6>Concepto de GIT</h6>
 
-            <p>GIT es un sistema de control de versiones. Lleva un registro de todos los cambios y avances de un proyecto. Además, trabaja con ramas lo que ayuda a que varias personas trabajen en un mismo proyecto y puedan realizar modificaciones sin afectar los demas archivos. El archivo tendra un historial de acciones y una vez que esten listos los cambios se fusionan con la rama principal.</p>
-            <h2>PRINCIPALES COMANDOS DE GIT</h2>
+            <h1 id="t1">Concepto de GIT</h1>
+
+            <p class="p1">GIT es un sistema de control de versiones. Lleva un registro de todos los cambios y avances de un proyecto. Además, trabaja con ramas lo que ayuda a que varias personas trabajen en un mismo proyecto y puedan realizar modificaciones sin afectar los demas archivos. El archivo tendra un historial de acciones y una vez que esten listos los cambios se fusionan con la rama principal.</p>
+            
+            <h2 class="pcg">PRINCIPALES COMANDOS DE GIT</h2>
             <Ul>
                 <li><strong>GIT INIT:</strong> Este comando funciona para inicializar un proyecto con Git.</li>
                 <li><strong>GIT CONFIG --GLOBAL USER.NAME:</strong> Este comando establece el nombre del autor.</li>
@@ -102,22 +105,54 @@
                 <input type="email" name="email" id="email" placeholder="Escriba su email" required=""><br><br>
 
                 <label for="contraseña">Contraseña</label>
-                <input type="password" pattern="*{8,}" name="contraseña" id="contraseña" placeholder="Escriba su contraseña" required=""><br><br>
+                <input type="password" pattern="*{8,}" placeholder="Escriba su contraseña" required=""><br><br>
 
                 <label for="Fecha">Fecha</label>
                 <input type="date" id="start" name="trip-start" placeholder="Escriba la fecha" required=""><br><br>
 
                 <label for="Números">Números</label>
-                <input type="number" id="tentacles" placeholder="Escriba números" required=""><br><br>
+                <input type="number" name="números" id="números" min="1" max="10" placeholder="Escriba su número" required=""><br><br>
 
-                <label for="Rango">Rango</label>
-                <input type="range" placeholder="Escriba el rango"><br><br>
+                <label for="Rango">Rangos</label>
+                <input type="range" min="5" max="10"><br><br>
 
                 <label for="Teléfono">Teléfono</label>
-                <input type="tel" id="tel" name="tel"><br><br>
+                <input type="tel" id="tel" name="tel" placeholder="Escriba su número telefónico"><br><br>
+
+                <label for="">Selección Múltiple</label> <br><br>
+                <input type="radio" name="Fútbol" value="1"Fútbol>Fútbol <br><br>
+                <input type="radio" name="Bicicleta" value="2"Bicicleta>Bicicleta <br><br>
+                <input type="radio" name="Natación" value="3"Natación>Natación <br><br>
+
+                <p>Genero:
+                    <input type="radio" name="hm" value="h">Hombre
+                    <input type="radio" name="hm" value="m">Mujer
+                </p>
+
+                <form action="#">
+                    <label for="lang">Lenguaje</label>
+                    <select name="lenguajes" id="lang">
+                        <option value="Selecciona">Selecciona un despliegue de opciones</option>
+                        <option value="opción 1">Opción 1</option>
+                        <option value="opción 2">Opción 2</option>
+                        <option value="opción 3">Opción 3</option>
+                        <option value="opción 4">Opción 4</option>
+                        <option value="opción 5">Opción 5</option>
+                        <option value="opción 6">Opción 6</option>
+                    </select>
+                </form> <br><br>
+
+                <input type="file" name="file" id="file" accept="image/*" multiple> <br><br>
 
                 <input type="submit">
                 <button value="Registrar">Registrar</button>
             </form>
+
+            <h2>ETIQUETAS MULTIMEDIA</h2>
+            <video src="../HTML/videos/promo.mp4" width="640" controls></video>
+            
+            <h3>Audio</h3>
+            <audio src="audios/himno.mp3" controls></audio>
+
         </body>
 </html>
