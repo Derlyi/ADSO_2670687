@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Iniciando con GIT</title>
+    </head>
+        <body>
+            <h1>Concepto de GIT</h1>
+            <h2>Concepto de GIT</h2>
+            <h3>Concepto de GIT</h3>
+            <h4>Concepto de GIT</h4>
+            <h5>Concepto de GIT</h5>
+            <h6>Concepto de GIT</h6>
+
+            <h1 id="t1">Concepto de GIT</h1>
+
+            <p class="p1">GIT es un sistema de control de versiones. Lleva un registro de todos los cambios y avances de un proyecto. Además, trabaja con ramas lo que ayuda a que varias personas trabajen en un mismo proyecto y puedan realizar modificaciones sin afectar los demas archivos. El archivo tendra un historial de acciones y una vez que esten listos los cambios se fusionan con la rama principal.</p>
+            
+            <h2 class="pcg">PRINCIPALES COMANDOS DE GIT</h2>
+            <Ul>
+                <li><strong>GIT INIT:</strong> Este comando funciona para inicializar un proyecto con Git.</li>
+                <li><strong>GIT CONFIG --GLOBAL USER.NAME:</strong> Este comando establece el nombre del autor.</li>
+                <li><strong>GIT CONFIG --GLOBAL USER.EMAIL:</strong> Este comando establece un email.</li>
+                <li><strong>GIT ADD:</strong> Permite agregar cambios al area de reparacion.</li>
+                <li><strong>GIT STATUS:</strong> Enumera todos los archivos que deben ser confirmados.</li>
+                <li><strong>GIT COMMIT -M:</strong> Registra instantaneas de archivos de forma permanente en el historial de versiones.</li>
+                <li><strong>GIT LOG:</strong> Este comando permite explorar el historial del repositorio.</li>
+                <li><strong>GIT BRANCH:</strong> Permite crear, enumerar y eliminar ramas, asi como cambiar su nombre.</li>
+                <li><strong>GIT CHECKOUT MAIN:</strong> Permite desplazarse entre las ramas creadas por git branch.</li>
+            </Ul>
+
+            <h2>REPOSITORIOS REMOTOS EN GIT</h2>
+            <ol>
+                <li>
+                    <a href="contenido/github.html" target="_blank">GITHUB</a>
+                </li>
+                <li>
+                    <a href="contenido/gitlab/gitlab.html" target="_blank">GITLAB</a>
+                </li>
+                <li>
+                    <a href="contenido/gitlab/bitbucket/bitbucket.html" target="_blank">BITBUCKET</a>
+                </li>
+            </ol>
+            <h2>Historias de usuario - Iniciar sesión o registrarse en Airbnb</h2>
+            <table border="1">
+                <tr>
+                    <th>ID Historia</th>
+                       <th>HU2</th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <td>Iniciar sesión o registrarse</td>
+                </tr>
+                <tr>
+                    <th>Peso</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Requisito</th>
+                    <td>RF1 - Inicio de sesión o registro</td>
+                </tr>
+                <tr>
+                    <th>Rol</th>
+                    <td>Usuario</td>
+                </tr>
+                <tr>
+                    <th>Funcionalidad</th>
+                    <td>Inicio de sesión o registro en Airbnb</td>
+                </tr>
+                <tr>
+                    <th>Resultado</th>
+                    <td>Observar y alquilar alojamiento</td>
+                </tr>
+                <tr>
+                    <th>Flujo Normal</th>
+                    <td>
+                        <ol>
+                            <li>Se abre la ventana emergente de inicio de sesión o registro.</li>
+                            <li>Se llenan los campos de país y número de teléfono.</li>
+                            <li>Se registra el número de verificación enviado al SMS.</li>
+                            <li>Se registra un nombre, apellido, fecha de nacimiento y correo electrónico del usuario.</li>
+                            <li>Se aceptan los términos y condiciones de Airbnb.</li>
+                            <li>Se valida la confirmación de usuario por medio del correo electrónico.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Criterios de aceptación</th>
+                    <td>
+                        <ol>
+                            <li>Se podrá iniciar sesión con cuenta de gmail, Facebook, Apple o correo electrónico.</li>
+                            <li>Para el registro se deberá llenar los campos del país y número de teléfono, también datos del usuario como el nombre, apellido, fecha de nacimiento y correo electrónico, no se permiten campos vacíos.</li>
+                            <li>No se aceptan datos o registro de usuario a menores de 18 años.</li>
+                            <li>Se podrán observar los términos y condiciones para que el usuario esté al tanto del sistema Airbnb.</li>
+                            <li>Se debe confirmar si el usuario existe por medio de un código por el correo electrónico antes registrado.</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+            <h2>FORMULARIO EN HTML5</h2>
+            <form action="" method="">
+                <label for="nombre">Digite Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required=""><br><br>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Escriba su email" required=""><br><br>
+
+                <label for="contraseña">Contraseña</label>
+                <input type="password" pattern="*{8,}" placeholder="Escriba su contraseña" required=""><br><br>
+
+                <label for="Fecha">Fecha</label>
+                <input type="date" id="start" name="trip-start" placeholder="Escriba la fecha" required=""><br><br>
+
+                <label for="Números">Números</label>
+                <input type="number" name="números" id="números" min="1" max="10" placeholder="Escriba su número" required=""><br><br>
+
+                <label for="Rango">Rangos</label>
+                <input type="range" min="5" max="10"><br><br>
+
+                <label for="Teléfono">Teléfono</label>
+                <input type="tel" id="tel" name="tel" placeholder="Escriba su número telefónico"><br><br>
+
+                <label for="">Selección Múltiple</label> <br><br>
+                <input type="radio" name="Fútbol" value="1"Fútbol>Fútbol <br><br>
+                <input type="radio" name="Bicicleta" value="2"Bicicleta>Bicicleta <br><br>
+                <input type="radio" name="Natación" value="3"Natación>Natación <br><br>
+
+                <p>Genero:
+                    <input type="radio" name="hm" value="h">Hombre
+                    <input type="radio" name="hm" value="m">Mujer
+                </p>
+
+                <form action="#">
+                    <label for="lang">Lenguaje</label>
+                    <select name="lenguajes" id="lang">
+                        <option value="Selecciona">Selecciona un despliegue de opciones</option>
+                        <option value="opción 1">Opción 1</option>
+                        <option value="opción 2">Opción 2</option>
+                        <option value="opción 3">Opción 3</option>
+                        <option value="opción 4">Opción 4</option>
+                        <option value="opción 5">Opción 5</option>
+                        <option value="opción 6">Opción 6</option>
+                    </select>
+                </form> <br><br>
+
+                <input type="file" name="file" id="file" accept="image/*" multiple> <br><br>
+
+                <input type="submit">
+                <button value="Registrar">Registrar</button>
+            </form>
+
+            <h2>ETIQUETAS MULTIMEDIA</h2>
+            <video src="../ADSO_2670687/video/software.mp4" width="640" controls></video>
+            
+            <h3>Audio</h3>
+            <audio src="../ADSO_2670687/audio/himno.mp3" controls></audio>
+
+        </body>
+</html>
