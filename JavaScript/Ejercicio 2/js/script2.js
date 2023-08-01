@@ -36,10 +36,71 @@ a. 55% del promedio de sus tres calificaciones parciales.
 b. 30% de la calificación del examen final.
 c. 15% de la calificación de un trabajo final. */
 
-let calificación1=prompt("Ingrese su calificación 1")
-let calificación2=prompt("Ingrese su calificación 2")
-let calificación3=prompt("Ingrese su calificación 3")
-const porcentaje=55/100
-const resultado=parseInt(calificación1+calificación2+calificación3)
-const presultado=parseInt(resultado*porcentaje)
-alert("El rpomedio de sus calificaciones parciales es: "+presultado)
+/*let 1parcial = prompt("Ingrese la primera nota del parcial");
+let 2parcial = prompt("Ingrese la segunda nota del parcial");
+let 3parcial = prompt("Ingrese la tercera nota del parcial");
+const pparcial =55/100;
+let examfinal = prompt("Ingrese la calificación del examen final");
+const pexam=30/100;
+let trabajofinal = prompt("Ingrese la calificación del trabajo final");
+const ptrabajo =15/100;
+
+const promediop =parseInt((1parcial+2parcial+3parcial)/3);
+const calfinal=parseInt(promediop*pparcial) + parseInt(examfinal*pexam) + parseInt(trabajofinal*ptrabajo);
+alert("La calificación final de la materia Algoritmos es: "+calfinal);*/
+
+/* Ejercicio 4: El dueño de una tienda compra un artículo a un precio determinado. Obtener el precio en que lo debe vender para obtener una ganancia del 30%.*/
+
+/*let precio = prompt("Ingrese el precio del artículo");
+const pganancia =30/100;
+const comision = parseInt(presio*pganancia);
+const ganancia = parseInt (precio+comision);
+alert("La ganancia del artículo es de: "+ganancia);*/
+
+/* Ejercicio 5: Un taxi cobra por una carrera 15 mil pesos por kilómetro recorrido y 2 mil por minuto. Determine el monto a pagar por una carrera.*/
+
+/*let carrerak = prompt("Ingrese el número de kilometros recorridos");
+let carreram = prompt("Ingrese el número de minutos recorridos");
+const kilo = 15000;
+const min = 2000;
+const tkilo = kilo*carrerak;
+const tmin = min*carreram;
+const mpagar = parseInt(tkilo) + parseInt(tmin);
+alert("El monto a pagar por una carrera es: "+mpagar);*/
+
+/* Ejercicio 6: Realizar un programa en el cual se van a leer tres números y determinar el cuadrado de cada uno de ellos.*/
+
+/*let num1 = prompt("Ingrese el primer número");
+let num2 = prompt("Ingrese el segundo número");
+let num3 = prompt("Ingrese el tercer número");
+const cuadrado1 = parseInt(num1*num1);
+const cuadrado2 = parseInt(num2*num2);
+const cuadrado3 = parseInt(num3*num3);
+alert("El cuadrado del primer número es: "+cuadrado1+ "El cuadrado del segundo número es: "+cuadrado2+ "El cuadrado del tercer número es: "+cuadrado3);*/
+
+/* Ejercicio 7:En un hospital existen tres áreas: Ginecología, Pediatría, Traumatología. El presupuesto anual del hospital se reparte conforme a la sig. tabla:
+Ginecología 40%
+Traumatología 30%
+Pediatría 30%
+Obtener la cantidad de dinero que recibirá cada área, para cualquier monto
+presupuestal.*/
+
+/*let presupanual = prompt("Ingrese el presupuesto anual del hospital");
+const pgine = 40/100;
+const ptrau = 30/100;
+cont ppedi = 30/100;
+const tgine = parseInt(presupanual*pgine);
+const ttrau = parseInt(presupanual*ttrau);
+const tpedi = parseInt(presupanual*tpedi);
+alert("El dinero que recibe el área de Ginecología es: "+tgine+ "El dinero total que recibe el área de Traumatología es: "+ttrau+ "El dinero total que recibe el área de Pediatría es: "+tpedi);*/
+
+/* Ejercicio 9:Tres personas deciden invertir su dinero para fundar una empresa. Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.*/
+
+/*let persona1 = prompt("Ingresar la inversión de la primera persona");
+let persona2 = prompt("Ingresar la inversión de la segunda persona");
+let persona3 = prompt("Ingresar la inversión de la tercera persona");
+const total = parseInt (persona1 + persona2 + persona3);
+const porcen1 = parseInt ((persona1/total)*100);
+const porcen2 = parseInt ((persona2/total)*100);
+const porcen3 = parseInt ((persona3/total)*100);
+alert("El porcentaje de la inversión de la primera persona es: "+porcen1+ "El porcentaje de la inversión de la segunda persona es: "+porcen2+ "El porcentaje de la inversión de la tercera persona es: "+porcen3);*/
